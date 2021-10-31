@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\antan\\source\\repos\\Išskirstytosios duomenų bazės\\Išskirstytosios duomenų bazės\\Išskirstytosios duomenų bazės.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\antan\\source\\repos\\Išskirstytosios duomenų bazės\\Išskirstytosios duomenų bazės\\Išskirstytosios duomenų bazės.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\antan\\source\\repos\\Išskirstytosios duomenų bazės\\Išskirstytosios duomenų bazės\\Išskirstytosios duomenų bazės.csproj",
+        "projectName": "Išskirstytosios duomenų bazės",
+        "projectPath": "C:\\Users\\antan\\source\\repos\\Išskirstytosios duomenų bazės\\Išskirstytosios duomenų bazės\\Išskirstytosios duomenų bazės.csproj",
+        "packagesPath": "C:\\Users\\antan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\antan\\source\\repos\\Išskirstytosios duomenų bazės\\Išskirstytosios duomenų bazės\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\antan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "CassandraCSharpDriver": {
+              "target": "Package",
+              "version": "[3.16.3, )"
+            },
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.21.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
